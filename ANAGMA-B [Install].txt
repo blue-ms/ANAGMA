@@ -1,4 +1,4 @@
-
+new
 
 1 'ANAGMA-B(SETUP-2.0)[2-1]
 5 CLS:CLV:B=0:F=FILE()
