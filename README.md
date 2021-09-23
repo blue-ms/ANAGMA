@@ -52,7 +52,7 @@ ANAGMAをスタートさせると、画面中央に「 <<ANAGMA>> 」という�
  
 
 ※ANAGMA-B特殊操作説明
-注意）必ず、I2CのEEPROM (AITENDOのCAT24M01)を差した状態で使ってください。
+注意）必ず、I2CのEEPROM (CAT24M01: https://akizukidenshi.com/catalog/g/gI-10492/)を差した状態で使ってください。
 使い方の変更点は、
 ・Alt+C で暗号文の保存。Alt+V で暗号文の読み込み。
 ・最初の画面で、保存した暗号文の閲覧(REVIEW)を追加。
