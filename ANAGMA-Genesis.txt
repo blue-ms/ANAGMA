@@ -1,0 +1,6 @@
+﻿1 'ANAGMA-Genesis
+10 FOR I=#900 TO #BFF
+20 A=PEEK(I)
+30 A=A+1
+40 POKE I,A
+50 NEXT

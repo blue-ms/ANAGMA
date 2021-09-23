@@ -1,0 +1,42 @@
+﻿1 'PD radio
+5 CLS:CLV:P=0
+10 FORY=0TO12
+15 LC0,2*Y-1:IFY<10?"0";:LC1,2*Y-1
+20 ?Y;:?" :";:NEXT
+21 IFG=1GOTO90
+22 Y=0
+30 FORY=0TO12
+31 A=RND(5):B=RND(4)+1:D=RND(99)+1
+35 LC4,2*Y-1
+36 IFP=1BEEP20,30
+37 LED1
+40 IFA=0&&B=1?"Terrorist Attack";
+41 IFA=0&&B=2?"Gang Attack";
+42 IFA=0&&B=3?"Grand Theft Auto";
+43 IFA=0&&B=4?"Murder";
+44 IFA=1&&B=1?"Road Race";
+45 IFA=1&&B=2?"Traffic Accident";
+46 IFA=1&&B=3?"Be Lost";
+47 IFA=1&&B=4?"Molester";
+48 IFA=2&&B=1?"Traffic Accident";
+49 IFA=2&&B=2?"Unknown";
+50 IFA=2&&B=3?"Citizen Fight";
+51 IFA=2&&B=4?"Robber";
+52 IFA=3&&B=1?"Bank Robber";
+53 IFA=3&&B=2?"Alarm Actived";
+54 IFA=3&&B=3?"Fire Alarm Actived";
+55 IFA=3&&B=4?"Shots Fired";
+56 IFA=4&&B=1?"Crazy Man";
+57 IFA=4&&B=2?"Suspicious Person";
+58 IFA=4&&B=3?"Grand Theft Auto";
+59 IFA=4&&B=4?"Traffic Accident";
+60 LC23,2*Y-1
+61 IFG=1LC23,1
+62 ?"[";D;" PCT]";
+74 IFG=1LED0:WAITC:GOTO80
+75 LED0:NEXT
+80 SCROLL2:SCROLL2
+81 G=1:GOTO10
+90 LED0
+91 A=RND(5):B=RND(4)+1:C=RND(1800)+1:D=RND(99)+1
+92 LC4,1:GOTO36
