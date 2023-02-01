@@ -6,7 +6,7 @@ This program has powered by IchigoJam BASIC.
 
 4.0～6.0は１ファイル化された区別をするため、『ANAGMA[数字]＠』という表記になっています。
 
-ANAGMA-A、ANAGMA-Bは最終版という扱いになっております
+ANAGMA-A、ANAGMA-Bは最終版という扱いになっております。
 
 
 ※基本操作説明：
