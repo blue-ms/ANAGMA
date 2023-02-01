@@ -2,7 +2,7 @@
 
 This program has powered by IchigoJam BASIC.
 
-※ファイル表記の説明※
+　※ファイル表記の説明※
 
 1.0～3.0までは、暗号化プログラムが『ANAGMA[数字]』、復号化プログラムが『ANAGMA[数字]（）』という表記になっています。
 
@@ -11,7 +11,7 @@ This program has powered by IchigoJam BASIC.
 ANAGMA-A、ANAGMA-Bは最終版という扱いになっております。
 
 
-※基本操作説明：
+　※基本操作説明：
 
 ANAGMAをスタートさせると、画面中央に「 <<ANAGMA>> 」という文字が表示されます。
 
